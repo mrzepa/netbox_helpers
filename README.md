@@ -53,6 +53,7 @@ Below is an example of how to use NetboxHelper to interact with a NetBox instanc
         print(f"Next available prefix: {next_prefix}")
     else:
         print("No available prefix found.")
+```
 
 ## Configuration
 **NetboxHelper** requires access to a NetBox instance using an API URL and a valid token. Ensure you provide these parameters when initializing the helper:
