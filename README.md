@@ -57,5 +57,5 @@ Below is an example of how to use NetboxHelper to interact with a NetBox instanc
 
 ## Configuration
 **NetboxHelper** requires access to a NetBox instance using an API URL and a valid token. Ensure you provide these parameters when initializing the helper:
-    ```python
+```python
     netbox_helper = NetboxHelper(api_url='http://netbox.example.com', token='your_netbox_api_token')
