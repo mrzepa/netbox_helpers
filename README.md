@@ -34,7 +34,7 @@ If you're not using Poetry, you can install dependencies directly:
 ## Usage
 Below is an example of how to use NetboxHelper to interact with a NetBox instance.
 ### Example Script
-    ```python
+```python
     from netbox_helpers import NetboxHelper
     
     # Configure the NetBox API
