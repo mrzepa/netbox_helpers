@@ -28,8 +28,8 @@ To get started with **NetboxHelper**, you need to have Python installed. The lib
 
 ### Using pip
 If you're not using Poetry, you can install dependencies directly:
-    ```bash
-    pip install pynetbox python-slugify
+
+    pip install pynetbox
 
 ## Usage
 Below is an example of how to use NetboxHelper to interact with a NetBox instance.

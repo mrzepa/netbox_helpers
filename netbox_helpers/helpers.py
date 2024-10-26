@@ -1,6 +1,5 @@
 import pynetbox
 import logging
-from slugify import slugify
 
 logger = logging.getLogger(__name__)
 
