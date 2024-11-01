@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "netbox-helpers"
+version = "0.1.0"
+description = "A collection of tools to interact with NetBox"
+authors = ["Mark Rzepa <mark@rzepa.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pynetbox = "^7.4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+packages = [
+    { include = "netbox_helpers" }
+]
